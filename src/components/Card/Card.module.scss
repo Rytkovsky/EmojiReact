@@ -1,0 +1,30 @@
+.card {
+  padding: 24px;
+  // max-width: 316px;
+  width: 316px;
+  height: 184px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+  background: #fff;
+
+  &__symbol {
+    margin-bottom: 18px;
+    color: #68717a;
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  &__title {
+    color: #000;
+    font-size: 17px;
+    line-height: 28px;
+    text-decoration: underline;
+    margin-bottom: 12px;
+  }
+
+  &__keywords {
+    color: #3f444a;
+    font-size: 12px;
+  }
+}

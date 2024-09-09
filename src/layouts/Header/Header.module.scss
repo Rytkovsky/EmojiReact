@@ -1,0 +1,39 @@
+.header {
+  position: relative;
+  width: 100%;
+  padding: 68px 0px 100px 0px;
+  border: 1px solid #ced4da;
+  background: linear-gradient(92deg, #087990 0.12%, #055160 100%);
+
+  &__title {
+    text-align: center;
+    color: #cff4fc;
+    font-size: 72px;
+    font-weight: 700;
+  }
+
+  &__text {
+    text-align: center;
+    color: #cff4fc;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+
+  &__input {
+    max-width: 820px;
+    width: calc((13 / 14) * 100vw);
+    height: 64px;
+    padding-left: 32px;
+    border-radius: 4px;
+    border: 1px solid#ced4da;
+    background: #fff;
+    color: #abb5be;
+    font-size: 24px;
+    line-height: 21px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+  }
+}
